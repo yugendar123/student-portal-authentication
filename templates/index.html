@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Student Portal</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Your Learning Journey Starts Here!</h2>
+
+            <p>
+                Welcome to our Student Portal.
+                Register your account or login to access your dashboard.
+            </p>
+
+            <div class="buttons">
+                <a href="/register">Register</a>
+                <a href="/login">Login</a>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
